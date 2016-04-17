@@ -27,13 +27,12 @@
         android:layout_height="wrap_content"
         android:text="@string/txtBoton"
         android:id="@+id/button"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="67dp"
         android:textColor="#ffffff"
         android:textStyle="bold"
         android:textSize="@dimen/abc_text_size_title_material"
         android:singleLine="false"
-        style="@android:style/DeviceDefault.SegmentedButton" />
+        style="@android:style/DeviceDefault.SegmentedButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
